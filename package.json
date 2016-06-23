@@ -1,0 +1,29 @@
+{
+  "name": "nice-zip",
+  "version": "0.1.0",
+  "description": "Simple to zip or unzip archive file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstarorg/nice-zip.git"
+  },
+  "engines": {
+    "node": ">4.0"
+  },
+  "keywords": [],
+  "author": "Jay.M.Hu<hm910705@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hstarorg/nice-zip/issues"
+  },
+  "homepage": "https://github.com/hstarorg/nice-zip#readme",
+  "dependencies": {
+    "jszip": "3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
