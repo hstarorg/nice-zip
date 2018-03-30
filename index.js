@@ -1,7 +1,5 @@
-'use strict';
-
-let JSZip = require('jszip');
-let tools = require('./lib/tools');
+const JSZip = require('jszip');
+const tools = require('./lib/tools');
 
 module.exports = {
   JSZip: JSZip,
