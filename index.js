@@ -1,7 +1,7 @@
 const JSZip = require('jszip');
-const tools = require('./lib/tools');
+const unzip = require('./lib/unzip');
 
 module.exports = {
   JSZip: JSZip,
-  unzipFile: tools.unzipFile
+  unzipFile: unzip
 };

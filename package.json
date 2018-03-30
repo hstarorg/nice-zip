@@ -4,7 +4,7 @@
   "description": "Simple to zip or unzip archive file.",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "jszip": "^3.1.5"
   },
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^0.25.0",
+    "fs-extra": "^5.0.0"
   }
 }
