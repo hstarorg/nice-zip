@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## v0.2.0 (2018-3-xx)
+## v0.2.0 (2018-3-30)
 
 - 提供压缩目录的方法
 
