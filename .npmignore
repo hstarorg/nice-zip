@@ -1,1 +1,4 @@
 test/
+src/
+coverage/
+pnpm-lock.yaml

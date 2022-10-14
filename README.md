@@ -1,22 +1,24 @@
 # nice-zip
+
 Simple to zip or unzip archive file.
 
-It used [JSZip](https://github.com/Stuk/jszip) with version 3.0.0
+It used [JSZip](https://github.com/Stuk/jszip) with version 3.x
 
 # How to use?
 
-``npm install nice-zip --save``
+`npm install nice-zip --save`
 
-```javascript
-// Extra zip package
-const niceZip = require('nice-zip');
+```ts
+import niceZip from 'nice-zip';
+
+// Extra zip package to special folder
 niceZip.unzip('1.zip', 'folder1', {
   onLoad: (len) => {
     console.log(`zip include files(include folders) is: ${len}`);
   },
   onProcess: (path, index, len) => {
     console.log(`Current file is ${path}, the index is ${index}, total count is ${len}`);
-  }
+  },
 });
 
 // Zip folder to a zip file
@@ -27,13 +29,30 @@ Other options parames: [https://stuk.github.io/jszip/documentation/api_jszip/loa
 
 You can use JSzip too, like this:
 
-```javascript
-let JSZip = require('nice-zip').JSZip;
+```ts
+const JSZip = require('nice-zip').JSZip;
 ```
 
+# How to develop
 
-# How to test?
+## Develop
 
-``npm install ava -g``
+```bash
+npm run dev
+```
 
-``npm test``
+## Test
+
+```bash
+# 运行测试
+npm test
+
+# 运行测试并计算代码覆盖率
+npm run cov
+```
+
+## Publish
+
+```bash
+npm run pub
+```

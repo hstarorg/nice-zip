@@ -1,5 +1,11 @@
 # Change Log
+
 All notable changes to this project will be documented in this file.
+
+## v1.0.0 (2022-10-14)
+
+- 代码重构为 TS 版本
+- 增加类型文件
 
 ## v0.2.1 (2018-11-14)
 
